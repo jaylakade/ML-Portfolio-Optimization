@@ -1,7 +1,7 @@
 # Stock Portfolio Machine Learning Optimization
 
 ## Project Overview
-This project focuses on optimizing stock portfolios using various financial theories and machine learning models. It includes modules for factor analysis, mean-variance optimization, machine learning strategies for stock prediction, the Black-Litterman model for adjusting portfolio weights based on machine learning predictions, and portfolio statistics calculations. While rooted in the concepts established by my [Portfolio Analysis Suite](https://github.com/Gouldh/Portfolio-Analysis-Suite) project, this project stands on its own, offering unique functionalities and perspectives that distinguish it from its predecessor.
+This project focuses on optimizing stock portfolios using various financial theories and machine learning models. It includes modules for factor analysis, mean-variance optimization, machine learning strategies for stock prediction, the Black-Litterman model for adjusting portfolio weights based on machine learning predictions, and portfolio statistics calculations.
 
 ## Features
 - **Mean-Variance Optimization**: Calculates the optimal asset allocation by balancing expected return against risk, subject to constraints on individual asset weights.
@@ -19,43 +19,24 @@ This project focuses on optimizing stock portfolios using various financial theo
 - `statsmodels`: Utilized for conducting statistical tests and models, particularly in factor analysis. It is used for running regression analyses to assess the impact of different financial factors on stock returns.
 
 
-## Installation
-To use the Portfolio Analysis Suite, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Gouldh/ML-Portfolio-Optimization.git
-   ```
-2. Navigate to the repository's directory
-   ```bash
-   cd ML-Portfolio-Optimization
-   ```
-3. Install the required Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+`
 
 ## Sample Output
-Below is an example of the output produced by running the code with sample input parameters. The table shows the allocation percentages for each stock in the original Mean-Variance Optimization, as well as the Machine Learning-enhanced Mean-Variance Optimization. The Chart shows the performance of the three portfolios against the market representation (SPY) and provices metrics for each portfolio's performance.
+Below is an example of the output produced by running the code with sample input parameters. The table shows the allocation percentages for each stock in the original Mean-Variance Optimization, as well as the Machine Learning-enhanced Mean-Variance Optimization. The Chart shows the performance of the three portfolios against the market representation (BSESENSEX) and provices metrics for each portfolio's performance.
 
 ```plaintext
-     Original MV Optimization ML MV Optimization
-AAPL   16.67%          23.69%             25.00%
-JNJ    13.33%           1.44%              8.97%
-PG      8.89%           9.17%             15.00%
-JPM    14.44%          22.96%              3.82%
-XOM     7.78%           6.19%              3.89%
-MMM     6.67%           5.58%              1.96%
-SO      5.56%           2.05%              6.86%
-VZ      6.67%          14.31%             22.06%
-NKE    11.11%          13.36%              5.52%
-DD      8.89%           1.24%              6.92%
+              Original MV Optimization ML MV Optimization
+RELIANCE.NS     15.79%          23.16%             40.38%
+TCS.NS          12.63%          14.55%             15.96%
+HDFCBANK.NS     13.68%          10.96%              3.81%
+INFY.NS         10.53%           1.70%              2.73%
+HINDUNILVR.NS    8.42%           6.89%             10.16%
+ITC.NS           7.37%           5.16%             12.92%
+KOTAKBANK.NS     6.32%           7.26%              6.16%
+ICICIBANK.NS     8.42%           1.96%              3.09%
+BAJFINANCE.NS    9.47%           3.61%              3.12%
+LT.NS            7.37%          24.75%              1.68%
 ```
 
-![Example Output](https://github.com/Gouldh/ML-Portfolio-Optimization/blob/main/Example%20Code%20Output.png) 
+![Example Output](final_result.png) 
 
-## License
-This project is open-sourced under the MIT License. For more information, please refer to the `LICENSE` file.
-
-**Author**: Hunter Gould         
-**Date**: 11/29/2023

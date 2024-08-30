@@ -35,17 +35,18 @@ def get_market_caps(tickers):
     :return: A dictionary with tickers and their example market capitalizations.
     """
     market_caps = {
-        'AAPL': 2.0e12,  # Apple Inc.
-        'JNJ': 800.0e9,  # Johnson & Johnson
-        'PG': 400.0e9,   # Procter & Gamble Co.
-        'JPM': 250.0e9,  # JPMorgan Chase & Co.
-        'XOM': 200.0e9,  # Exxon Mobil Corporation
-        'MMM': 230.0e9,  # 3M Company
-        'SO': 220.0e9,   # Southern Company
-        'VZ': 260.0e9,   # Verizon Communications Inc.
-        'NKE': 400.0e9,  # NIKE, Inc.
-        'DD': 130.0e9    # DuPont de Nemours, Inc.
+    'RELIANCE.NS': 1675000,   # Reliance Industries Ltd.
+    'TCS.NS': 1200000,        # Tata Consultancy Services Ltd.
+    'HDFCBANK.NS': 900000,    # HDFC Bank Ltd.
+    'INFY.NS': 650000,        # Infosys Ltd.
+    'HINDUNILVR.NS': 600000,  # Hindustan Unilever Ltd.
+    'ITC.NS': 550000,         # ITC Ltd.
+    'KOTAKBANK.NS': 450000,   # Kotak Mahindra Bank Ltd.
+    'ICICIBANK.NS': 650000,   # ICICI Bank Ltd.
+    'BAJFINANCE.NS': 425000,  # Bajaj Finance Ltd.
+    'LT.NS': 400000           # Larsen & Toubro Ltd.
     }
+
     return market_caps
 
 
